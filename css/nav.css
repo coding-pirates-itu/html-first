@@ -1,21 +1,21 @@
 nav {
     display: flex;
     padding: 0px;
-    margin-block-start: 0px;
+    width: 100%;
+    background-color: #f4d6cc;
 }
 
 nav a {
     display: inline-block;
-    border: 1px solid rgb(39, 43, 24);
-    padding: 10px 30px;
-    margin: 0px;
-    color: black;
+    padding: 0.5rem 2rem;
+    color: #32373b;
     text-decoration: none;
 }
 
-nav a:hover {
-    background-color: #f7f334;
-    transition: background-color 0.5s;
+nav a:hover,
+nav a:focus {
+    background-color: #e29378;
+    transition: all 0.5s ease-out;
 }
 
 nav a:first-child {
@@ -27,7 +27,7 @@ nav a:last-child {
 }
 
 nav a.active {
-    background-color: #e4f584;
+    background-color: #eaae9a;
     font-weight: bold;
     cursor: default;
 }

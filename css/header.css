@@ -1,0 +1,10 @@
+header {
+    background-color: #1c1f21;
+    color: #ffffff;
+}
+
+header img {
+    height: 5rem;
+    margin-right: 3rem;
+    vertical-align: middle;
+}
