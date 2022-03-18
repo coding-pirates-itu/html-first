@@ -12,13 +12,13 @@ jobs:
     - name: htmltest-action
       uses: wjdp/htmltest-action@v0.13.0-rc1
       with:
-        path: ${{ env.GITHUB_WORKSPACE }}
+        path: ${{ github.workspace }}
         skip_external: true
     
     - name: HTML5 Validator
       uses: Cyb3r-Jak3/html5validator-action@v7.1.0
       with:
-        root: ${{ env.GITHUB_WORKSPACE }}
+        root: ${{ github.workspace }}
         css: true
     
     - name: FTP Deployer
@@ -30,6 +30,6 @@ jobs:
         username: ${{ secrets.SftpUserName }}
         password: ${{ secrets.SftpPassword }}
         remote_folder: ${{ secrets.SftpDirectory }}
-        local_folder: ${{ env.GITHUB_WORKSPACE }}
+        local_folder: ${{ github.workspace }}
         cleanup: true
     
