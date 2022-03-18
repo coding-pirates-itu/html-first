@@ -3,6 +3,7 @@ nav {
     padding: 0px;
     width: 100%;
     background-color: #f4d6cc;
+    font-weight: 400;
 }
 
 nav a {
@@ -28,6 +29,6 @@ nav a:last-child {
 
 nav a.active {
     background-color: #eaae9a;
-    font-weight: bold;
+    font-weight: 700;
     cursor: default;
 }

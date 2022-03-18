@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 @import "main.css";
 @import "header.css";
 @import "nav.css";
-@import "card.css";
+@import "block.css";
