@@ -1,4 +1,5 @@
 body {
+    font-family: 'Lato', sans-serif;
     margin: 0px;
     background-color: #32373b;
     color: #f4d6cc;
@@ -9,5 +10,5 @@ main {
 }
 
 h2 {
-    color: #4f82c7;
+    color: #e29378;
 }
