@@ -31,5 +31,5 @@ jobs:
         password: ${{ secrets.SftpPassword }}
         remote_folder: ${{ secrets.SftpDirectory }}
         local_folder: ${{ github.workspace }}
+        exclude: ['.git*/**', 'README.md']
         cleanup: true
-    
