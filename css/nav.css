@@ -2,21 +2,21 @@ nav {
     display: flex;
     padding: 0px;
     width: 100%;
-    background-color: #f4d6cc;
+    background-color: var(--text-color);
     font-weight: 400;
 }
 
 nav a {
     display: inline-block;
     padding: 0.5rem 2rem;
-    color: #32373b;
+    color: var(--background);
     text-decoration: none;
+    transition: all 0.5s ease-out;
 }
 
 nav a:hover,
 nav a:focus {
-    background-color: #e29378;
-    transition: all 0.5s ease-out;
+    background-color: var(--header-color);
 }
 
 nav a:first-child {
@@ -28,7 +28,7 @@ nav a:last-child {
 }
 
 nav a.active {
-    background-color: #eaae9a;
+    background-color: var(--active-menu);
     font-weight: 700;
     cursor: default;
 }

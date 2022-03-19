@@ -1,9 +1,17 @@
-body {
+html {
+    --header-background: #1c1f21;
+    --background: #32373b;
+    --text-color: #f4d6cc;
+    --header-color: #e29378;
+    --active-menu: #eaae9a;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+}
+
+body {
     margin: 0px;
-    background-color: #32373b;
-    color: #f4d6cc;
+    background-color: var(--background);
+    color: var(--text-color);
 }
 
 main {
@@ -11,5 +19,5 @@ main {
 }
 
 h2 {
-    color: #e29378;
+    color: var(--header-color);
 }

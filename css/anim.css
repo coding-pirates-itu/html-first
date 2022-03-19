@@ -1,0 +1,44 @@
+img {
+    transition: all 0.4s ease-in-out;
+}
+
+img.expand:hover {
+    transform: scale(2) translateX(100px);
+}
+
+div.zoom-container {
+    display: inline-block;
+    overflow: hidden;
+    height: 200px;
+    margin: 1rem;
+    border: 1px solid var(--text-color);
+    box-shadow: 6px 6px 3px #000000;
+}
+
+img.zoom {
+    margin: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+img.zoom:hover {
+    transform: scale(1.5);
+}
+
+img.emphasize:hover {
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.6);
+    transform: translate(-2px, -2px);
+}
+
+img.jiggle:hover {
+    animation: jiggle 50ms ease-in-out 0s 6 alternate;
+}
+
+@keyframes jiggle {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(5px, -3px);
+    }
+}

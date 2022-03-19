@@ -8,19 +8,20 @@ div.block {
 div.block .block-title {
     font-size: larger;
     font-weight: bold;
-    color: #e29378;
+    color: var(--header-color);
     margin-bottom: 0.5rem;
 }
 
 div.block img {
     height: 200px;
     margin: 1rem;
-    border: 1px solid #f4d6cc;
+    border: 1px solid var(--text-color);
     box-shadow: 6px 6px 3px #000000;
 }
 
 div.card-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 div.card {

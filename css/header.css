@@ -1,6 +1,6 @@
 header {
-    background-color: #1c1f21;
-    color: #f4d6cc;
+    background-color: var(--header-background);
+    color: var(--text-color);
 }
 
 header img {
